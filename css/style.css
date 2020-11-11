@@ -20,25 +20,8 @@
   float: left;
 }
 
-.box1,.box2,.box3{
-  margin:0 auto;
-  background-color: red;
-  height: 500px;
-  width: 30%;
-  border: 1px solid black;
-  vertical-align: middle;
-
-}
-
 
 /* end utility class */
-
-
-
-
-
-
-
 
 
 
@@ -126,7 +109,7 @@ a{
   left:200px;
   bottom:500px;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: blue
 }
  .piano-formativo2 form>input{
   width: 200px;
@@ -136,12 +119,66 @@ a{
 }
 .barra{
   width: 90%;
-  height: 200px;
-  background-color:red;
+
   margin: 0 auto;
   background-color: lightgrey;
 }
+
 h2,h3{
   text-align: center;
   margin-top:20px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.clearfix-contenitore{
+  width: 90%;
+  height: 500px;
+  margin: 20px auto;
+  position: relative;
+
+}
+.box1,.box2,.box3{
+width: 33%;
+height: 600px;
+position: relative;
+
+}
+.box1-immagine{
+  width: 25%;
+  height: 200px;
+
+  background-image: url("../img/profile.svg");
+  position: absolute;
+  top:0;
+  left:50%;
+
+}
+.box2-immagine{
+width: 25%;
+height: 200px;
+
+background-image: url("../img/doc.svg");
+position: absolute;
+top:0;
+left:50%;
+
+}
+.box3-immagine{
+  width: 25%;
+  height: 200px;
+
+ background-image: url("../img/doc.svg");
+ position: absolute;
+ top:0;
+ left:50%;
+}
+.text{
+  width: 50%;
+ height: 50px;
+ position: absolute;
+ top:220px;
+ left:40%;
+ font-size: 25px;
+ color:green;
+ text-align: center;
 }
